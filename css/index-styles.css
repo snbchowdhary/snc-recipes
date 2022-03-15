@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://c1.wallpaperflare.com/preview/576/36/7/food-drink-breakfast-dinner-dish.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3.5rem;
+  margin: 3rem 0 4rem;
+  color: #e4e4e4;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 270px;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  color: steelblue;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #bbb;
+}
+
+a:hover {
+  color: #e4e4e4;
+}
+
+/************************** Media Queries *******************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
